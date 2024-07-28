@@ -238,6 +238,9 @@ public class FlagPermissions {
             if (one.equals(CMIMaterial.DECORATED_POT))
                 matUseFlagList.put(one.getMaterial(), Flags.container);
 
+            if (one.equals(CMIMaterial.CRAFTER))
+                matUseFlagList.put(one.getMaterial(), Flags.container);
+
             if (one.isButton())
                 matUseFlagList.put(one.getMaterial(), Flags.button);
 
