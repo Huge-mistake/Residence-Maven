@@ -313,7 +313,7 @@ public class FlagPermissions {
             addMaterialToUseFlag(CMIMaterial.CHISELED_BOOKSHELF.getMaterial(), Flags.container);
         }
 
-        if (Version.isCurrentEqualOrHigher(Version.v1.21-R0.1)) {
+        if (Version.isCurrentEqualOrHigher(Version.v1_21_R0_1)) {
             addMaterialToUseFlag(CMIMaterial.CRAFTER.getMaterial(), Flags.container);
         }
 
